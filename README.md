@@ -10,16 +10,13 @@
 
 #### Usage Technology:
 * React JS
-* Node JS
-* Express JS
-* Mongo DB
+* React Router
+* Bootstap
+* CSS
 * Material UI
-* Firebase Auth
 >
 #### Usage Tools:
-* Heroku
-* Firebase Hosting
-* Firebase Tool
+* Netlyfy
 * VS Code
 * Git
 * Github

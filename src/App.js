@@ -30,6 +30,9 @@ function App() {
           <Route path="/contract">
             <Contact></Contact>
           </Route>
+          <Route exact path="/service">
+          <Courses></Courses>
+          </Route>
           <Route path='*'>
             <NotFound></NotFound>
           </Route>

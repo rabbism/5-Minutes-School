@@ -1,4 +1,5 @@
 import React from 'react';
+import Banners from '../Banners/Banners';
 import HomeCourse from '../Courses/HomeCourse/HomeCourse';
 import './Home.css'
 
@@ -19,6 +20,9 @@ const Home = () => {
             </div>
             <div>
                 <HomeCourse></HomeCourse>
+            </div>
+            <div>
+                <Banners></Banners>
             </div>
         </div>
     

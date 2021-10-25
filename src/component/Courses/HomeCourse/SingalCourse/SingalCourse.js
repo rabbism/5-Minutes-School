@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SingalCourse = (props) => {
     const {id,name,price,description,img} =props.course
@@ -8,7 +9,10 @@ const SingalCourse = (props) => {
             <div className='text-center'>
                 <h4>{name}</h4>
                 <h5>Price: ${price}</h5>
+                <Link to ='/service'>
                 <button className='btn btn-dark'>Details</button>
+                </Link>
+                
             </div>
         </div>
     );
