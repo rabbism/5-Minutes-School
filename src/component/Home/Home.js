@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeCourse from '../Courses/HomeCourse/HomeCourse';
 import './Home.css'
 
 const Home = () => {
@@ -16,7 +17,11 @@ const Home = () => {
                 </p>
                 <button className='btn btn-dark'>Get Started</button>
             </div>
+            <div>
+                <HomeCourse></HomeCourse>
+            </div>
         </div>
+    
     );
 };
 

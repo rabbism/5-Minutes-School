@@ -14,6 +14,10 @@ function App() {
       <Router>
       <Header></Header>
         <Switch>
+          <Route exact path="/">
+            <Home></Home>
+
+          </Route>
           <Route exact path="/Home">
             <Home></Home>
           </Route>
@@ -30,6 +34,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
